@@ -319,3 +319,8 @@ p,.definition-intro,.resource-info h3,.lesson-list summary>span:not(.lesson-stag
 #about .competencies p,#steps .steps article>p,.strategy-definition .strategy p{letter-spacing:-.65px;word-break:keep-all;text-wrap:pretty}
 .project-content>p,.research-band>p:not(.eyebrow),.resource-info p{letter-spacing:-.55px;text-wrap:pretty}
 @media(max-width:640px){p,.definition-intro,.resource-info h3{letter-spacing:-.45px}#about .research-needs article>div>p,#about .competencies p,#steps .steps article>p{letter-spacing:-.6px}}
+
+.back-to-top{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:12px 22px;border:1px solid #b8a6ca;border-radius:8px;background:#eee8f5;color:#40304f;font-size:16px;font-weight:700;white-space:nowrap}
+.back-to-top:hover{background:#e3d7ee;border-color:#80629f}
+@media(max-width:640px){.back-to-top{margin-top:16px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
