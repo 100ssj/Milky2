@@ -329,3 +329,11 @@ p,.definition-intro,.resource-info h3,.lesson-list summary>span:not(.lesson-stag
 header nav a{padding:8px 12px;border-radius:7px;transition:background-color .15s,color .15s}
 header nav a.is-current{background:#e7ddf2;color:#50336f;font-weight:700;box-shadow:inset 0 -2px 0 #8765a6}
 @media(max-width:640px){header nav a{padding:7px 8px}}
+
+/* Understated navigation: text and a fine underline only. */
+header nav a{position:relative;padding:9px 2px;border-radius:0;background:transparent;box-shadow:none;color:#626575;transition:color .15s}
+header nav a::after{content:'';position:absolute;left:2px;right:2px;bottom:2px;height:2px;background:#62557b;transform:scaleX(0);transition:transform .15s}
+header nav a:hover{color:#30283e}
+header nav a.is-current{background:transparent;box-shadow:none;color:#30283e;font-weight:700}
+header nav a.is-current::after{transform:scaleX(1)}
+@media(max-width:640px){header nav a{padding:9px 2px}}
