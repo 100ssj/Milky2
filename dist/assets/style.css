@@ -279,3 +279,12 @@ header .brand-full-title>span:last-child{white-space:nowrap}
 #about .research-rationale{padding:21px 24px;background:#eeeaf5;border-radius:9px;color:#342945;font-size:16px}
 #about .research-direction{font-size:19px;font-weight:700;color:#282d50;margin:24px 0;line-height:1.9}
 @media(max-width:640px){.research-needs{grid-template-columns:1fr;gap:0}.research-needs h4{font-size:20px}#about .research-rationale{padding:18px;font-size:15px}#about .research-direction{font-size:17px}}
+
+/* Student voices in speech bubbles, with compact learning-need sentences. */
+.research-needs h4{position:relative;display:table;max-width:100%;padding:14px 20px;margin:0 0 24px;background:#f0eaf7;border:1px solid #c9b9dd;border-radius:20px;letter-spacing:-.5px}
+.research-needs h4:before{content:'';position:absolute;left:25px;bottom:-12px;width:0;height:0;border-top:12px solid #c9b9dd;border-right:14px solid transparent}
+.research-needs h4:after{content:'';position:absolute;left:26px;bottom:-10px;width:0;height:0;border-top:11px solid #f0eaf7;border-right:12px solid transparent}
+#about .research-needs article>div>p{font-size:14px;letter-spacing:-.85px;line-height:1.9;word-break:keep-all;overflow-wrap:break-word}
+@media(min-width:1200px){#about .research-needs article>div>p{font-size:clamp(11px,1vw,14px);letter-spacing:-.9px;white-space:nowrap}}
+@media(max-width:1199px){.research-needs{grid-template-columns:1fr}#about .research-needs article>div>p{font-size:15px;letter-spacing:-.5px}}
+@media(max-width:640px){.research-needs h4{font-size:18px;padding:13px 17px}#about .research-needs article>div>p{white-space:normal;font-size:15px;letter-spacing:-.4px}}
