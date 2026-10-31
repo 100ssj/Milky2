@@ -265,3 +265,17 @@ header .brand-full-title>span:last-child{white-space:nowrap}
 #about .about-intro{padding:0}
 #about .competency-group{border-top:1px solid #d8d3e1;padding-top:30px}
 @media(max-width:640px){#about .about-grid{gap:28px}#about .competency-group{padding-top:24px}}
+
+/* Classroom needs lead into the project's design rationale. */
+.research-needs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 32px;margin:28px 0}
+.research-needs article{padding:25px 0;border-top:1px solid #ddd6e6;min-width:0}
+.research-needs h4{font-size:21px;color:#382b51;margin:0 0 10px;line-height:1.7;word-break:keep-all}
+#about .research-needs article>p{margin:0 0 18px}
+.research-needs article>div{border-left:3px solid #c5b6da;padding-left:18px}
+.research-needs article:first-child>div{border-left-color:#aa8b43}
+.research-needs article>div>b{display:block;font-size:16px;color:#594176}
+#about .research-needs article>div>p{margin:7px 0 10px;font-size:15px}
+.research-needs small{font-size:11px;color:#737185;line-height:1.8;display:block}
+#about .research-rationale{padding:21px 24px;background:#eeeaf5;border-radius:9px;color:#342945;font-size:16px}
+#about .research-direction{font-size:19px;font-weight:700;color:#282d50;margin:24px 0;line-height:1.9}
+@media(max-width:640px){.research-needs{grid-template-columns:1fr;gap:0}.research-needs h4{font-size:20px}#about .research-rationale{padding:18px;font-size:15px}#about .research-direction{font-size:17px}}
