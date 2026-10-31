@@ -288,3 +288,27 @@ header .brand-full-title>span:last-child{white-space:nowrap}
 @media(min-width:1200px){#about .research-needs article>div>p{font-size:clamp(11px,1vw,14px);letter-spacing:-.9px;white-space:nowrap}}
 @media(max-width:1199px){.research-needs{grid-template-columns:1fr}#about .research-needs article>div>p{font-size:15px;letter-spacing:-.5px}}
 @media(max-width:640px){.research-needs h4{font-size:18px;padding:13px 17px}#about .research-needs article>div>p{white-space:normal;font-size:15px;letter-spacing:-.4px}}
+
+/* Readable type sizes throughout the site, including secondary labels. */
+body{font-size:16px}
+nav{font-size:15px}.header-cta{font-size:14px}
+.eyebrow,.hero .eyebrow,.section-heading .eyebrow{font-size:14px;letter-spacing:.5px}
+.lead{font-size:17px}.button,.text-link{font-size:15px}.hero-meta{font-size:14px}
+.value-strip{font-size:15px}
+.section-heading>p,.compass-illustration p{font-size:16px}
+#about .about-intro p,#about .competencies p,.definition-intro{font-size:16px}
+#about .about-intro summary{font-size:16px}
+#about .research-needs article>div>p{font-size:16px;letter-spacing:-.4px;white-space:normal;line-height:1.9}
+.research-needs small{font-size:14px}
+.project-tabs .project-tab-number,.project-tabs span{font-size:14px}
+.project-content>p,.project-output{font-size:16px}.project-facts span{font-size:14px}
+.book small,.book-side>p{font-size:13px}
+.lesson-list>h4 small{font-size:14px}.lesson-list summary{font-size:16px}.lesson-list summary>small{font-size:14px}
+.lesson-list .lesson-group-rows details p{font-size:16px}
+#steps .steps article>p,.strategy-definition .strategy p,.strategy-definition ul{font-size:16px}
+.research-band .eyebrow{font-size:14px}.research-band>p:not(.eyebrow){font-size:16px}
+.filters button{font-size:14px}.search input{font-size:16px}.resource-count{font-size:15px}
+.resource-info h3{font-size:18px}.resource-info p{font-size:15px}.resource-row>a{font-size:15px}
+.file-icon{font-size:13px}.source-note,footer p,footer>span{font-size:14px}
+@media(max-width:1000px){nav{font-size:14px}.hero-meta{font-size:13px}.section-heading>p{font-size:16px}.book-side>p{font-size:12px}}
+@media(max-width:640px){nav{font-size:13px;gap:10px}.hero .eyebrow{font-size:12px}.lead{font-size:16px}.text-link{font-size:14px}.hero-meta{font-size:12px;flex-wrap:wrap}.value-strip{font-size:12px;gap:8px;flex-wrap:wrap}.section-heading .eyebrow{font-size:13px}.compass-illustration p{font-size:15px}.project-tabs .project-tab-number{font-size:12px}.project-tabs b{font-size:14px}.project-content>p,.project-output{font-size:16px}.lesson-list .lesson-group-rows summary{font-size:15px}.lesson-list summary>small{font-size:13px}.lesson-list .lesson-group-rows details p{font-size:16px}.research-band .eyebrow{font-size:13px}.filters button{font-size:14px}.resource-info h3{font-size:17px}.resource-info p{font-size:15px}.file-icon{font-size:12px;width:44px;flex-basis:44px}.resource-row>a{font-size:15px}.research-needs small{font-size:13px}footer p{font-size:14px}}
