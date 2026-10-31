@@ -337,3 +337,21 @@ header nav a:hover{color:#30283e}
 header nav a.is-current{background:transparent;box-shadow:none;color:#30283e;font-weight:700}
 header nav a.is-current::after{transform:scaleX(1)}
 @media(max-width:640px){header nav a{padding:9px 2px}}
+
+/* Increase secondary text while retaining the existing heading hierarchy. */
+header nav{font-size:17px}.header-cta{font-size:16px}
+.eyebrow,.hero .eyebrow,.section-heading .eyebrow{font-size:16px}
+.hero-meta,.value-strip{font-size:16px}
+.text-link,.button{font-size:17px}
+.section-heading>p,.compass-illustration p{font-size:18px}
+.research-needs small{font-size:16px}
+.project-tabs .project-tab-number,.project-tabs span{font-size:16px}
+.project-facts span,.book small,.book-side>p{font-size:16px}
+.lesson-list>h4 small,.lesson-list summary>small{font-size:16px}
+.lesson-list summary>small{min-width:54px}
+.resource-info p,.resource-count,.filters button,.resource-row>a{font-size:17px}
+.file-icon{font-size:15px;width:54px;flex:0 0 54px;height:52px}
+.source-note,footer p,footer>span{font-size:16px}
+.research-band .eyebrow{font-size:16px}
+@media(max-width:1000px){header nav{font-size:16px}.hero-meta,.book-side>p{font-size:15px}.section-heading>p{font-size:17px}}
+@media(max-width:640px){header nav{font-size:15px;gap:8px}.hero .eyebrow,.section-heading .eyebrow{font-size:14px}.hero-meta,.value-strip{font-size:14px}.text-link{font-size:16px}.compass-illustration p{font-size:16px}.project-tabs .project-tab-number{font-size:14px}.project-tabs b{font-size:15px}.project-facts span{font-size:15px}.lesson-list>h4 small,.lesson-list summary>small{font-size:15px}.lesson-list .lesson-group-rows summary{font-size:16px}.lesson-list summary>small{min-width:45px}.resource-info p,.filters button,.resource-row>a{font-size:16px}.file-icon{font-size:14px;width:50px;flex-basis:50px}.research-needs small,footer p{font-size:15px}.research-band .eyebrow{font-size:14px}.book-side>p{position:static;margin:22px 0 0;font-size:15px}}
