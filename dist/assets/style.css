@@ -324,3 +324,8 @@ p,.definition-intro,.resource-info h3,.lesson-list summary>span:not(.lesson-stag
 .back-to-top:hover{background:#e3d7ee;border-color:#80629f}
 @media(max-width:640px){.back-to-top{margin-top:16px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* Highlight the current section in the main navigation. */
+header nav a{padding:8px 12px;border-radius:7px;transition:background-color .15s,color .15s}
+header nav a.is-current{background:#e7ddf2;color:#50336f;font-weight:700;box-shadow:inset 0 -2px 0 #8765a6}
+@media(max-width:640px){header nav a{padding:7px 8px}}
